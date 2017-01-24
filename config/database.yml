@@ -5,13 +5,17 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
+  adapter: postgresql
   pool: 5
   timeout: 5000
+  encoding: unicode
+  username: chefwebsite
+  password: <%= ENV['CHEFWEBSITE_PASSWORD'] %>
 
 development:
   <<: *default
-  database: db/development.sqlite3
+  adapter: sqlite3
+  database: chefwebsite_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -22,4 +26,5 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  adapter: postgresql
+  database: chefwebsite_production
