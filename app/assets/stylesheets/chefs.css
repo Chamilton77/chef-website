@@ -1,0 +1,202 @@
+body{
+	background: url("signupfood.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 110%;
+	width:100%;
+}
+#chefo{
+	color: lightgreen;
+	font-size: 30px;
+	padding-top: 10px;
+}
+#account{
+	color: lightgreen;
+	font-size: 25px;
+	padding-top: 10px;
+}
+.navbar{
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+	height: 80px;
+	padding: 15px;
+	font-size: 20px;
+	color: white;
+}
+.textc{
+	color: white;
+}
+#edittitle{
+	color: white;
+}
+#wrapper{
+	border: 2px solid green;	
+	width: 500px;
+	margin-left: 750px;	
+	text-align: center;
+	border-radius: 9px;
+	height: 550px;
+	background: rgba(170, 232, 129, 0.5);
+}
+#editwrapper{
+	border: 2px solid green;	
+	width: 850px;
+	margin-left: 325px;	
+	text-align: center;
+	border-radius: 9px;
+	height: 500px;
+	background: rgba(170, 232, 129, 0.5);
+	padding-top: 10px;
+}
+.subttn{
+	width: 200px;
+	border-radius: 4px;
+	border: 2px solid green;
+	background-color: lightgreen;
+	text-align: center;
+}
+.su{
+	width: 275px;
+	border-radius: 4px;
+	border: 2px solid lightblue;
+	outline: none;
+	text-align: center;
+}
+#edit1{
+	float: left;
+	margin-left:100px;
+}
+/***************************************************/
+
+#rows{
+	width: 100%;
+}
+#parentpropic{
+	height: 320px;
+	width: 325px;
+	border-radius: 30%
+}
+#propic{
+	height: 100%
+	width: 100%;
+}
+#profilepic{
+	background: rgba(170, 232, 129, 0.5);
+	height: 325px;
+	margin-left: 120px;
+	border-radius: 50%
+}
+#profileinfo{
+	background: rgba(170, 232, 129, 0.7);
+	height: 250px;
+	margin-left: 105px;
+	margin-top: 50px;
+}
+#reviews{
+	background: rgba(170, 232, 129, 0.7);
+	margin-left: 120px;
+	margin-bottom: 50px;
+}
+#cname{
+	color: white;
+}
+#request{
+	float: left;
+	height: 100px;
+	width: 350px;
+	background: rgba(400, 232, 90, 0.9);
+	box-shadow: 0 9px #666;
+	outline: none;
+	font-size: 24px;
+	border-radius: 4px;
+	border: 2px solid black;
+	margin-left: 260px;
+}
+#request:hover{
+	background: rgba(170, 232, 129, 0.9);
+}
+#request:active {
+  background-color: lightblue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#newreview{
+	margin-left: 50px;
+	float: left;
+	height: 100px;
+	width: 350px;
+	background: rgba(400, 232, 90, 0.9);
+	box-shadow: 0 9px #666;
+	outline: none;
+	font-size: 24px;
+	border-radius: 4px;
+	border: 2px solid black;
+}
+#newreview:hover{
+	background: rgba(170, 232, 129, 0.9);
+}
+#newreview:active {
+  background-color: lightblue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#review{
+	height: 100px;
+}
+#butdiv{
+	height: 120px;
+}
+/***************************************************/
+.cheflog{
+	background:rgba(170, 232, 129, 0.9); 
+	height: 350px;
+	width: 350px;
+	margin-left: 150px;	
+	border-radius: 10px;
+}
+.chefwrap{
+	text-align: center
+}
+.userlog{
+	background:rgba(170, 232, 129, 0.9); 
+	height: 350px;
+	width: 350px;
+	margin-left: 285px;
+	border-radius: 10px;
+}
+.userwrap{
+	text-align: center;
+}
+#chefmail{
+	margin-top: 30px;
+}
+#welcomeword{
+	width: 80%;
+	height: 75px;
+	background:rgba(170, 232, 129, 0.9);
+	border-radius: 10px;
+	font-family: monospace;
+	font-style: italic;
+	font-size: 60px;
+}
+#welcome{
+	text-align: center;
+	margin-left: 210px;
+
+}
+.crajax{
+	width: 80%;
+	background-color: lightblue;
+	margin-left: 100px;
+	border-radius: 15px;
+}
+#reviewdes{
+	font-size: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
+}
+
+
+
+
+

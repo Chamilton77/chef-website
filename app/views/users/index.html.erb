@@ -1,0 +1,22 @@
+<div id="mapdiv">
+	<h2 id="maphead">Find Chefs In Your Area!</h2>
+	<div id="mapwrap">
+	    <div id="map"></div>
+		<%= render "maptags" %>
+	</div>
+</div>
+<div class="row">
+    <% @chefs.each do |chef| %>
+	    <div class="col-md-6", id="chefgallery">
+	    	<div class="chefcard">
+			    <br>
+				<%= image_tag chef.avatar.url(:thumb) %><br>
+				Name: <%= chef.fname %>
+				<%= chef.lname %> <br>
+				Specialty: <%= chef.specialty %> <br>
+				<%= link_to "Learn more...", chefs_show_path(chef) %>
+			</div>
+		</div>
+	<% end %>
+</div>
+		
