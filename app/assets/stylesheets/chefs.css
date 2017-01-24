@@ -2,7 +2,7 @@ body{
 	background: url("signupfood.jpg") no-repeat center center fixed;
 	background-size: cover;
 	height: 110%;
-	width:100%;
+	width: 100%;
 }
 #chefo{
 	color: lightgreen;
@@ -76,7 +76,7 @@ body{
 	border-radius: 30%
 }
 #propic{
-	height: 100%
+	height: 100%;
 	width: 100%;
 }
 #profilepic{
